@@ -1,0 +1,63 @@
+Use Case 1 (Login)
+
+1. User opens application.
+2. System asks for username and password.
+3. User enters username and password into textboxes, and clicks submit.
+4. System checks username and password.
+5. If verified, System brings user to their specific application page. (Principal, Requestee, or Student)
+
+4.1 System find the username or password are incorrect.
+	1. System informs user the username or password are incorrect.
+	2. User can attempt to enter their username and password again.
+
+Use Case 2 (Building a Calendar)
+
+1. Principal logs in to application.
+2. System displays pathway options.
+3. Principal views System options.
+4. Principal selects "View Calendar".
+5. Principal selects a timeslot.
+6. Principal adds room information.
+Principal Repeats step 5-6 until done.
+7. System keeps track of room timeslots.
+8. System displays different room options in list.
+9. System presents room availabilty based on principal specifications.
+10. Principal logs out of system.
+
+5. Principal wishes to remove a room.
+	1. Principal selects a room slot.
+	2. Principal deletes the information.
+	3. System removes room from list of availabilty.
+	4. Principal exits system.
+
+
+Use Case 3 (Requesting a Room)
+
+1. Requester wants to book out a room.
+2. Requester identifies themselves in the System.
+3. System provides the ability to book rooms.
+4. Requester selects the option they want to reserve.
+5. System records this information.
+6. System sends a file of this information to the Principal.
+Repeat steps 4-6 until done.
+7. System adds requests to the set of pending requests.
+8. System informs Requester that the request has been acknowledged and is pending approval.
+9. Requester exits System.
+
+Use Case 4 (Approving Room Requests)
+
+1. Principal wants to manually respond to room requests.
+2. System provides list of room requests.
+3. Principal chooses which of the room requests are approved or denied.
+4. Principal adds these choices to the calendar.
+5. System sends out notifications regarding approved or declined room requests.
+Repeat steps 3-5 until done.
+6. Principal exits System.
+
+Use Case 5 (Viewing Calendar)
+
+1. User opens application.
+2. User selects "View Calendar"
+3. System shows the calendar information in a new window.
+4. User selects the "Exit" button when they are finished.
+5. User may use the "Exit" button in the main window to end the program.

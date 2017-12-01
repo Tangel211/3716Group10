@@ -14,3 +14,10 @@ The second iterative update will add a feature that saves previous timeslot data
 Group 10's application provided a framework for the space assignment school app, our developments allow the user to log in. Based on which type of user they log in as, they have different options available. The principal can view a editable version of the calender, the requestee can submit info for a request which the app submits into a file called requests.txt . The student can only view the calender
 
 Group Contribution Points: Tyler 10, Zach 10, Mushfiqur 10
+
+
+LOGIN INFO: USERNAME: PRINCIPAL PASSWORD :1
+
+USERNAME :REQUESTEE PASSWORD:2
+
+USERNAME: STUDENT PASSWORD: 3
